@@ -1,0 +1,21 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A typescript template for node js",
+  "main": "index.js",
+  "author": "Suhel-Kap",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {}
+}
